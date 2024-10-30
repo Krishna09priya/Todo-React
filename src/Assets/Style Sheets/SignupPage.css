@@ -1,0 +1,96 @@
+
+.signupPage-body {
+    background-color: #f9f9f9;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    font-family: 'Arial', sans-serif;
+  }
+  
+
+  .signupPage-container {
+    background-color: #ffffff;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+    width: 400px;
+    text-align: center;
+  }
+  
+  
+  h3 {
+    margin-bottom: 20px;
+    font-weight: 600;
+    color: #333;
+  }
+  
+
+  .signupPage-input-group {
+    position: relative;
+    margin-bottom: 20px;
+  }
+  
+
+  .signupPage-input {
+    width: 100%;
+    padding: 10px 40px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+    color: #333;
+    outline: none;
+    transition: border-color 0.3s ease;
+  }
+  
+  .signupPage-input:focus {
+    border-color: #007bff;
+  }
+  
+ 
+  .signupPage-icon {
+    position: absolute;
+    left: 10px;
+    top: 50%;
+    transform: translateY(-50%);
+    color: #007bff;
+  }
+  
+ 
+  .signupPage-error {
+    color: red;
+    font-size: 14px;
+    margin-top: 5px;
+  }
+  
+
+  .signupPage-btn {
+    width: 100%;
+    padding: 10px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .signupPage-btn:hover {
+    background-color: #0056b3;
+  }
+  
+
+  .signupPage-footer {
+    margin-top: 15px;
+  }
+  
+  .signupPage-link {
+    text-decoration: none;
+    color: #007bff;
+  }
+  
+  .signupPage-link:hover {
+    text-decoration: underline;
+  }
+  
